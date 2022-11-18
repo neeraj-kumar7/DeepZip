@@ -1,6 +1,6 @@
 pip install --upgrade pip
 pip install \
-    tensorflow-gpu==1.8
+    tensorflow-gpu==2.2.0
 pip install tqdm
 pip install \
       keras==2.2.2 \
