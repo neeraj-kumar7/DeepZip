@@ -18,7 +18,7 @@ import os
 from keras.callbacks import CSVLogger
 from keras import backend as K
 
-
+#models
 def biGRU(bs,time_steps,alphabet_size):
         model = Sequential()
         model.add(Embedding(alphabet_size, 32, batch_input_shape=(bs, time_steps)))
